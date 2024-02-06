@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: compliance
+    tables:
+      - name: supp_retiree_elig_facet
+      - name: supp_retiree_elig_rec
+      - name: supp_retiree_comment
+      - name: supp_retiree_err_rec
+      - name: supp_retiree_mem_rec
+      - name: batch_file_status
+      - name: file_metric
+      - name: error_log
+      - name: audit_log
+
+models:
+  - name: stg_supp_retiree_elig_facet
+  - name: stg_supp_retiree_elig_rec
+  - name: stg_supp_retiree_comment
+  - name: stg_supp_retiree_err_rec
+  - name: stg_supp_retiree_mem_rec
+  - name: stg_batch_file_status
+  - name: stg_file_metric
+  - name: stg_error_log
+  - name: stg_audit_log

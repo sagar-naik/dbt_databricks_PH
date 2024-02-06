@@ -1,0 +1,13 @@
+version: 2
+
+models:
+
+  - name: dim_supp_retiree_elig_facet
+  - name: dim_supp_retiree_elig_rec
+  - name: dim_supp_retiree_comment
+  - name: dim_supp_retiree_err_rec
+  - name: dim_supp_retiree_mem_rec
+  - name: dim_batch_file_status
+  - name: dim_file_metric
+  - name: dim_error_log
+  - name: dim_audit_log
