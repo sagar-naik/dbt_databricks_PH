@@ -3,6 +3,7 @@ version: 2
 models:
 
   - name: dim_supp_retiree_elig_facet
+  # dim_supp_retiree_elig_facet
   - name: dim_supp_retiree_elig_rec
   - name: dim_supp_retiree_comment
   - name: dim_supp_retiree_err_rec

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: medicare
+    tables:
+      - name: coba_erf
+
+models:
+  - name: stg_coba_erf
